@@ -4,3 +4,27 @@ body {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
 }
+
+h3{
+    color: #fff;
+}
+
+
+/*Nacbar*/
+
+.navbar {
+    
+    background-color: transparent;
+ 
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+
+    background: url('../images/hero-image.jpg'); no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
