@@ -67,6 +67,12 @@ text-transform: uppercase;
     background-size: cover;
 }
 
+.contactUs {
+     padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
 .learn-more-btn {
     background-color: #28a745;
     border-color: #28a745;
@@ -96,8 +102,6 @@ text-transform: uppercase;
     border-color: #28a745;
 }
 
-
-
-#submitbutton {
+.submitbutton {
     color: #6c757d;
 }
