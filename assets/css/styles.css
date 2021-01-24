@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
 
-body {
-    font-family: "Oswald", sans-serif;
-    font-weight: 200;
-}
 
-h1{
+#logo{
 color: #fff;
+margin-left: 10px;
 padding-top: 0px;
 text-transform: uppercase;
+}
+.nav-wrapper {
+    background-color: #050b10;
 }
 
 .btn,
@@ -26,49 +26,51 @@ text-transform: uppercase;
     font-family: "Oswald", sans-serif;
     font-weight: 200;
     font-size: 1.5rem;
-    text-transform: uppercase;
-    
- 
+    text-transform: uppercase; 
+ }
+
+body {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
 }
 
 /*--------------------------------------- Header*/
 
-.container {
-    height: 100vh;
-    max-width: 100%;
-
-  
-    background: url('../images/hero-image.jpg') no-repeat center center fixed;
+.hero-image {
+    height: 500px;
+    max-width: 100%;  
+    background: url('../images/hero-image.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden;
 }
 
-.training-container {
-    height: 100vh;
+.training-image {
+    height: 500px;
     width: 100%;
-
-    background: url('../images/Training-image.jpg') no-repeat;
+    background: url('../images/Training-image.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden;
 }
 
-.contact-container {
-    height: 100vh;
+.contact-image {
+    height: 500px;
     width: 100%;
-
-    background: url('../images/Contact-us-image.jpg') no-repeat;
+    background: url('../images/Contact-us-image.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden;
 }
 
 .contactUs {
-     padding-top: 10px;
+    padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
 }
@@ -76,6 +78,10 @@ text-transform: uppercase;
 .learn-more-btn {
     background-color: #28a745;
     border-color: #28a745;
+    margin-left: 50%;
+    margin-top: 25%; 
+    position: absolute;
+
 }
 
 
@@ -83,7 +89,9 @@ text-transform: uppercase;
     display: inline-block;
     font-weight: 400;
     color: #fff;
+     
     text-align: center;
+    text-transform: uppercase;
     vertical-align: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -100,8 +108,27 @@ text-transform: uppercase;
 .btn-outline-success {
     color: #fff;
     border-color: #28a745;
+    
 }
 
 .submitbutton {
     color: #6c757d;
+}
+h2 {
+    color: #fff;   
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.image-text {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.about-section {
+    background-color: #dddddd;
+    height: 500px;
+    
+}
+#about-text {
+    color: black;
 }
