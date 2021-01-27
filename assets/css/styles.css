@@ -70,9 +70,23 @@ body {
 }
 
 .contactUs {
-    padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+    width: 50%;
+
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
+
+.contact-text {
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
 }
 
 .learn-more-btn {
