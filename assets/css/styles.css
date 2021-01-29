@@ -7,9 +7,6 @@ margin-left: 10px;
 padding-top: 0px;
 text-transform: uppercase;
 }
-.nav-wrapper {
-    background-color: #050b10;
-}
 
 .btn,
 .btn-primary {
@@ -19,15 +16,46 @@ text-transform: uppercase;
 
 
 /*--------------------------------------- Navbar*/
+.nav-wrapper {
+    background-color: #050b10;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    z-index: 99999;
+}
 
-.navbar,
 .nav-item {
-    color: #fff;  
     font-family: "Oswald", sans-serif;
     font-weight: 200;
     font-size: 1.5rem;
     text-transform: uppercase; 
+    float: right;
+    position: relative;
+    list-style-type: none;
  }
+
+ .nav-item li {
+     float: left;
+     margin-top: 5%;
+ }
+
+
+ .nav-link,
+ .a {
+     text-decoration: none;
+     color: #777777; 
+    
+ }
+
+ a:hover {
+    color: #777777;  
+}
+
+  .active {
+     color: #fff;
+ }
+ 
+
 
 body {
     font-family: "Oswald", sans-serif;
@@ -45,6 +73,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
+    position: relative;
 }
 
 .training-image {
@@ -56,6 +85,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
+    position: relative;
 }
 
 .contact-image {
@@ -67,6 +97,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
+    position: relative;
 }
 
 .contactUs {
@@ -83,6 +114,9 @@ body {
 
 .contact-text {
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
 }
 
 p {
