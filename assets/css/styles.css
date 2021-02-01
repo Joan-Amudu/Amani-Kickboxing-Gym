@@ -120,7 +120,14 @@ body {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+
+h5 {
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .learn-more-btn {
@@ -172,16 +179,21 @@ h2 {
     margin-top: 200px;
     margin-bottom: 200px;
 }
-.about-section {
-    background-color: #dddddd;
-    height: 500px;
+.about-section,
+.training-section {
+    height: 400px;
+    text-align: center;
+    padding-top: 5%;
+  
     
 }
-#about-text {
+#about-text,
+#training-text {
     color: black;
 }
 
 footer {
+   
     text-align: center;
     background-color: #050b10;
 }
@@ -195,4 +207,75 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #fff;
+}
+/*
+.col-12,
+.col-lg-6 {
+height: 500px;
+width: 300px;
+}
+*/
+
+.one-training {
+    height: 500px;
+    max-width: 100%;  
+ 
+    background: url("../images/one-to-one-image.jpg") no-repeat right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    display: block;
+    overflow: hidden;
+    position: relative;
+    
+    
+}
+
+.group-training {
+    height: 500px;
+    width: 100%;    
+   
+    background: url('../images/Solo-image.jpg') no-repeat left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    display: block; 
+    overflow: hidden;  
+   
+}
+
+.one-on-one-container,
+.group-container {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.opening-hours {
+    padding-top: 5%;
+    padding-bottom: 2%;
+
+}
+
+
+
+
+/*--------------------------------------- dividers*/
+
+hr {
+    width: 100px;
+    height: 5px;
+    border: 0;
+    background-color: #28a745;
+}
+
+/*----------------------------------Media Queries */
+
+@media(min-width: 992px){
+   .center-form{
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    } 
 }
