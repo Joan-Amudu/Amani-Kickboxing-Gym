@@ -60,6 +60,7 @@ text-transform: uppercase;
 body {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
+    background-color: #fafafa;
 }
 
 /*--------------------------------------- Header*/
@@ -107,7 +108,7 @@ body {
 
     justify-content: space-between;
     padding: 1rem 1rem;
-    border-bottom: 1px solid #dee2e6;
+   
     border-top-left-radius: calc(.3rem - 1px);
     border-top-right-radius: calc(.3rem - 1px);
 }
@@ -195,33 +196,29 @@ h2 {
 }
 
 footer {
+ height: 100px;
+}
+
+.socialmedia {
     text-align: center;
-    background-color: #fafafa;
-     margin: 0;
-    padding: 0;
+   
+  
 }
 
 footer p {
     color: #777777;
 }
 
-.social-media li {
+.socialmedia li {
     display: inline;
 }
 
-.social-media i {
+.socialmedia i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #777777;
 }
-/*
-.col-12,
-.col-lg-6 {
-height: 500px;
-width: 300px;
-}
-*/
 
 .one-training {
     height: 500px;
