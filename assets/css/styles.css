@@ -60,7 +60,7 @@ text-transform: uppercase;
 body {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
-    background-color: #fafafa;
+    background-color: #f7f7f7;
 }
 
 /*--------------------------------------- Header*/
@@ -202,7 +202,6 @@ footer {
 .socialmedia {
     text-align: center;
    
-  
 }
 
 footer p {
@@ -233,7 +232,6 @@ footer p {
     overflow: hidden;
     position: relative;
     
-    
 }
 
 .group-training {
@@ -255,6 +253,12 @@ footer p {
     padding-top: 5%;
     padding-bottom: 2%;
 }
+
+.one-on-one-container p,
+.group-container p {
+    padding-top: 5%;
+}
+
 .opening-hours {
     padding-top: 10%;
     padding-bottom: 2%;
