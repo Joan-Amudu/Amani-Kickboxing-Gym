@@ -133,6 +133,7 @@ h3, h5 {
 
 .training-wrapper {
     padding-top: 10%;
+    background-color: #e7e7e7;
 }
 
 .learn-more-btn {
@@ -231,7 +232,7 @@ footer p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 100%; 
+    background-size: cover; 
     display: block;
     overflow: hidden;
     position: relative;
@@ -246,7 +247,7 @@ footer p {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 100%; 
+    background-size: cover; 
     display: block; 
     overflow: hidden;  
    
@@ -286,17 +287,8 @@ hr {
 
 /* ---------------------------------For mobile phones*/
 
-/* @media screen and (min-width: 992px){
-   .center-form{
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    } 
-} */
 
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 922px) {
 
 /*---------------------------------------Header*/
     #logo {
@@ -314,7 +306,7 @@ hr {
      line-height: 5px;
     }
     .nav-wrapper {
-        width: fit-content;
+        width: ;
     }
 
     .learn-more-btn {
@@ -338,22 +330,61 @@ hr {
 
     .socialmedia {
         display: inline;
-        margin-left: 35px;
-    }
+        
+    } 
 
-   
+    .one-training,
+    .group-training {
+        display: none;
+        
+    }
 
 
 }
 
+/* ---------------------------------Desktops*/
 
 
-/*// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
 
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
+@media screen and (max-width: 1200px) {
+      #logo {
+        font-size: 30px;       
+    }
+   
+    .nav-wrapper {
+        width: -webkit-fill-available;
+        padding-right: 10px;
+    }
 
+    .learn-more-btn {
+        margin-left: 40%;
+        padding-top: 70%;
+    }
+
+    .about-section,
+    .opening-hours,
+    .training-section,
+    .contact-text,
+    .contactUs {
+        width:90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .image-text {
+        padding-top: 20%;
+    }
+
+    .socialmedia {
+        text-align: center;
+        display: block;
+        padding-left: 5px;
+      
+    }
+   
+ }
+
+/*
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) { ... }
 
@@ -362,4 +393,8 @@ hr {
 
 // XX-Large devices (larger desktops)
 // No media query since the xxl breakpoint has no upper bound on its width
+
+@media screen and (max-width: 992px) { 
+
+    (min-width: 768px) and
 */
