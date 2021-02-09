@@ -104,7 +104,6 @@ p {
     position: relative;
 }
 
-
 .contactUs {
     margin: 0 auto;
     max-width: 70%;
@@ -247,6 +246,10 @@ body {
 .submit-button {
     color: #6c757d;
 }
+
+.modal {
+    position: relative;
+} 
 
 /*--------------------------------------- Footer*/
 
