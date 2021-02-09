@@ -306,7 +306,7 @@ hr {
      line-height: 5px;
     }
     .nav-wrapper {
-        width: ;
+        width: -webkit-fill-available;
     }
 
     .learn-more-btn {
