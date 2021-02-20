@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Amani Kickboxing Gym
 # Table of Content
 ## General Information
@@ -82,3 +83,6 @@ This project is created with:
 # Credits
 
 
+=======
+# 
+>>>>>>> 05927e73bcfa16d1c9da28a2c21c565c9a368c6f
