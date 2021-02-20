@@ -33,7 +33,8 @@ The webiste's design and layout is based on fonts, colors, wireframes, images an
 
 * Wireframes were created for Mobile, Tablet and Desktop computers
 
-* A pdf of the wireframes can be found [here](/assets/Wireframes/Amani_Wireframes_MS1.pdf)
+* A pdf of the wireframes can be found [here](/assets/Wireframes/Amani_Wireframes_MS1.pdf). This file can also be downloaded from Github. (**Please Note:** _[Adobe Acrobat Reader](https://get.adobe.com/reader/) is required to view files in pdf format_).
+
 
 # Features
 The website incorparates a header with the logo on the left a navigation bar with menu items on the left. It aslo incorporates a footer with social media icons and copyright information. The header and footer maintain consistency on all pages.
@@ -78,7 +79,27 @@ This project is created with:
 * Gitpod/Github
 
 # Testing 
+
 # Deployment
 # Credits
+Many resources were used to create this website.
+## Images
+All images were free to use and downloaded for [Pexels](https://www.pexels.com/search/boxing/) website.
+All images were traced back to their orignal source which was [Pexels](https://www.pexels.com/search/boxing/).
+## Code
+#### HTML5
+* [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/), a popular front-end open source toolkit has been used for the columns, rows, buttons and form.
+
+#### CSS3
+
+* Some of the CSS code was edited using the google inspect tool to style the elements better and create a more responsive webiste.
+
+## Icons
+* [Font Awesome](https://fontawesome.com/) was used for the social media icons. Here, the free icons were selected and styled to match the overall color-scheme of the website. 
+
+## Other resources
+* [w3schools.com](https://www.w3schools.com/default.asp): used for a deeper understanding of HTML and CSS.
+* [StackOverflow](https://stackoverflow.com/): Used for troubleshooting. 
+* Code Institute course modules.
 
 
