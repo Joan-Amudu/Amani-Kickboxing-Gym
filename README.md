@@ -114,6 +114,13 @@ The testing below is identical on all pages (Home, Training, and Contact Us)
 2. Email address
     - The email address is blue when inactive and when hovered over turns grey with a margin below. Clicking the email address directs the user to their preffered email service.
 ### Contact Us Page
+1. **Click Here** opens an external page with directions on google maps. This link is also blue when inactive and when hovered over turns grey with a margin below
+2. Contact form
+    - All fields are required.
+        - Clicking the submit button without any input in the field:
+            ![No input](/assets/images/Form_submit_no_input.png)
+        - Entering wrong format for email address:
+            ![Wrong email format](/assets/images/email_address_wrong_format.png)
 
 # Deployment
 # Credits
