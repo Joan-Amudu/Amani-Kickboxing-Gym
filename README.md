@@ -124,6 +124,8 @@ The testing below is identical on all pages (Home, Training, and Contact Us)
             ![Wrong email format](/assets/images/email_address_wrong_format.png)
     - When all fields are correctly input, form submits successfully.
 # Deployment
+how to publish
+how to other developer can delpoy 
 # Credits
 Many resources were used to create this website.
 ## Images
