@@ -19,7 +19,7 @@ This section highlights the business objectives and user experience .
 ## User Stories
 * As a site owner, I want the landing page to have relevant information, so that visitors can immediately understand what the business is about.
 * As a site owner, I want contact details to be available on the landing page, so that visitors can have quick access to contact information.
-* As a visitor, I want to easily navigate the page, so that I can quickly find information.
+* As a visitor, I want to easily navigate the site, so that I can quickly find information.
 * As a visitor, I want information about training times, so I can know which training days and times work best for me.
 * As a visitor, I want to know what services or training is available, so that I can make an informed decision to join the gym.
 ## Design 
@@ -87,10 +87,14 @@ The [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdce4a9
 
 2. As a site owner, I want contact details to be available on the landing page, so that visitors can have quick access to contact information.
     - The **Home** page have contact details listed. The **Email** address opens up an external link to microsoft mail which lists the most used emails. 
-    ![Screenshot of email address link](/assets/screenshots/email_address_link.png)
-3. As a visitor, I want to easily navigate the page, so that I can quickly find information.
+    - From the navigation bar, the visitor can access contact details by clicking the **Contact Us** menu.
+3. As a visitor, I want to easily navigate the site, so that I can quickly find information.
+    - The site has a navigation bar in the header with menu items (Home, Training and Contact Us) that link to their respective pages.
+    - The site also features a footer with socila media icons that open externally to their respective webistes.
 4. As a visitor, I want information about training times, so I can know which training days and times work best for me.
+    - Information on opening hours on the **Home** page is clearly displayed.
 5. As a visitor, I want to know what services or training is available, so that I can make an informed decision to join the gym.
+    - On the **Training** page, detailed information about the trainings offered is clearly displayed with accompanying images. 
 ## Functional Testing
 ### Home page
 ### Training page
