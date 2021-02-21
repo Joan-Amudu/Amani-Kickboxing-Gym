@@ -1,6 +1,6 @@
 # Amani Kickboxing Gym
 # Table of Content
-## General Information
+# General Information
 The [Code Institute](https://codeinstitute.net/) Milestone Project 1 requires students to build a static frnt-end website to prsent useful information to users.
 
 This project will demonstate HTML5 and CSS3 skills, as well Bootstrap which was used in the creation of a form.
@@ -96,8 +96,23 @@ The [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdce4a9
 5. As a visitor, I want to know what services or training is available, so that I can make an informed decision to join the gym.
     - On the **Training** page, detailed information about the trainings offered is clearly displayed with accompanying images. 
 ## Functional Testing
-### Home page
-### Training page
+### All pages
+The testing below is identical on all pages (Home, Training, and Contact Us)
+1. logo
+    - Clicking on the logo will return the user to the home page
+2. Navigation bar
+    - Menu Items collapse to a second line when the size size is set for mobile phones.
+    - The active page is highlighted with a darker grey and inactive menu items with a lighter grey color.
+3. Contact Us link
+    - when clicked, leads the user to the Contact Us page. This link is blue when inactive to draw emphasis on it and when hovered over, turn grey with a margin below it.
+4. Social Media Icons
+    - Facebook, Twitter and Instagram icons, when clicked, direct the user to respective websites. All social media links open in new tabs.
+    
+### Home Page
+1. Learn more
+    - This button, turns green when hovered over, and when clicked, directs the user to the **Training** page.
+2. Email address
+    - The email address is blue when inactive and when hovered over turns grey with a margin below. Clicking the email address directs the user to their preffered email service.
 ### Contact Us Page
 
 # Deployment
