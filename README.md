@@ -17,11 +17,11 @@ This section highlights the business objectives and user experience .
 
 
 ## User Stories
-* As a gym owner I want visitors to my site to immediately understand what the site is about.
-* As a gym owner I want visitors to have quick access to the contact details from the landing page.
-* As a visitor, I want to easily navigate the page, so that quickly find information.
-* As a user I want information about training times.
-* As a user I want to know what services or training is available.
+* As a site owner, I want the landing page to have relevant information, so that visitors can immediately understand what the business is about.
+* As a site owner, I want contact details to be available on the landing page, so that visitors can have quick access to contact information.
+* As a visitor, I want to easily navigate the page, so that I can quickly find information.
+* As a visitor, I want information about training times, so I can know which training days and times work best for me.
+* As a visitor, I want to know what services or training is available, so that I can make an informed decision to join the gym.
 ## Design 
 The webiste's design and layout is based on fonts, colors, wireframes, images and icons.
 
@@ -65,8 +65,6 @@ The contact us page includes detailed contact information
 - Contact form - the user can use the form to send inquiries about any of our trainings.
     
  
-
-
 # Technologies
 This project is created with:
 * HTML5 - used for building the website
@@ -79,6 +77,24 @@ This project is created with:
 * Gitpod/Github
 
 # Testing 
+The [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdce4a9da-36f6-4466-bd74-86f87ab6347c.ws-eu03.gitpod.io%2F%23%2Fworkspace%2FAmani-Strength-Training-MS1-Code-Institute&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) CSS Validation Service was used to valid both CSS and HTML code.
+
+## Testing User stories
+1. As a site owner, I want the landing page to have relevant information, so that visitors can immediately understand what the business is about.
+    - From the logo alone, a user can immediately know what the website is about.
+    - Hero images demonstate what clients can expect from the webiste and from the gym in general.
+    - The **Training** page gives detailed imformation on the services/traininging that are being offered.   
+
+2. As a site owner, I want contact details to be available on the landing page, so that visitors can have quick access to contact information.
+    - The **Home** page have contact details listed. The **Email** address opens up an external link to microsoft mail which lists the most used emails. 
+    ![Screenshot of email address link](/assets/screenshots/email_address_link.png)
+3. As a visitor, I want to easily navigate the page, so that I can quickly find information.
+4. As a visitor, I want information about training times, so I can know which training days and times work best for me.
+5. As a visitor, I want to know what services or training is available, so that I can make an informed decision to join the gym.
+## Functional Testing
+### Home page
+### Training page
+### Contact Us Page
 
 # Deployment
 # Credits
