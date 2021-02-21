@@ -112,7 +112,8 @@ The testing below is identical on all pages (Home, Training, and Contact Us)
 1. Learn more
     - This button, turns green when hovered over, and when clicked, directs the user to the **Training** page.
 2. Email address
-    - The email address is blue when inactive and when hovered over turns grey with a margin below. Clicking the email address directs the user to their preffered email service.
+    - The email address is blue when inactive and when hovered over turns grey with a margin below. Clicking the email address directs the user to their prefered email service.
+             ![Email address link](/assets/images/email_address_link.png)
 ### Contact Us Page
 1. **Click Here** opens an external page with directions on google maps. This link is also blue when inactive and when hovered over turns grey with a margin below
 2. Contact form
@@ -121,7 +122,7 @@ The testing below is identical on all pages (Home, Training, and Contact Us)
             ![No input](/assets/images/Form_submit_no_input.png)
         - Entering wrong format for email address:
             ![Wrong email format](/assets/images/email_address_wrong_format.png)
-
+    - When all fields are correctly input, form submits successfully.
 # Deployment
 # Credits
 Many resources were used to create this website.
