@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
 
-.logo {
-color: rgb(44, 41, 41);
-margin-left: 10px;
-padding-top: 0px;
-text-transform: uppercase;
+#logo {
+    color: rgb(44, 41, 41);
+    margin-left: 10px;
+    padding-top: 0px;
+    text-transform: uppercase;
 }
 
-.logo a {
+#logo a {
     text-decoration: none;
     color: rgb(44, 41, 41);
 }
-
 
 h2 {
     color: #fff;   
