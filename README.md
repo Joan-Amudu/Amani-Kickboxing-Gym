@@ -124,10 +124,24 @@ The testing below is identical on all pages (Home, Training, and Contact Us)
             ![Wrong email format](/assets/images/email_address_wrong_format.png)
     - When all fields are correctly input, form submits successfully.
 # Deployment
-how to publish
-how to other developer can delpoy 
+This website was created in gitpod, which is linked to Github. All changes were commited and pushed to Github.
+
+### How to publish
+- Go to [GitHub](https://github.com/). If you dont have a git account, sign up [here](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
+- Login in to [GitHub](https://github.com/).
+- Select **Amani-Kickboxing-Gym** from the list of repositories.
+- Click **Settings** from the menu.
+- Scroll down to **GitHub pages**.
+- Under source, Select the dropdown and select **master**.
+- Click save.
+- The website is then published and can be accessed from the url that is provided by GitHub.
+
+### How to deploy on your local machine
+Other developer can also deploy the website on their local machines using the clone command below.
+    
+    git clone https://github.com/Joan-Amudu/Amani-Kickboxing-Gym.git
 # Credits
-Many resources were used to create this website.
+Below are the resources that were used to create this website.
 ## Images
 All images were free to use and downloaded for [Pexels](https://www.pexels.com/search/boxing/) website.
 All images were traced back to their orignal source which was [Pexels](https://www.pexels.com/search/boxing/).
