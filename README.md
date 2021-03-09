@@ -1,4 +1,8 @@
 # Amani Kickboxing Gym
+Click [here](https://joan-amudu.github.io/Amani-Kickboxing-Gym/) to visit the live site.
+
+<img src="assets/images/Readme-cover.JPG">
+
 # Table of Content
 # General Information
 The [Code Institute](https://codeinstitute.net/) Milestone Project 1 requires students to build a static frnt-end website to prsent useful information to users.
@@ -31,7 +35,14 @@ The webiste's design and layout is based on fonts, colors, wireframes, images an
 ### Wireframes
 * Wireframes were created using the [Balsamiq](https://balsamiq.com/wireframes/) software.
 
-* Wireframes were created for Mobile, Tablet and Desktop computers
+Home Page 
+ ![Home](assets/images/Wireframes-Home.JPG)
+
+ Training Page
+![Training](assets/images/Wireframes-Training.JPG)
+
+Contact Us Page
+![Contact](assets/images/Wireframes-Contact-us.JPG)
 
 * A pdf of the wireframes can be found [here](/assets/Wireframes/Amani_Wireframes_MS1.pdf). This file can also be downloaded from Github. (**Please Note:** _[Adobe Acrobat Reader](https://get.adobe.com/reader/) is required to view files in pdf format_).
 
@@ -74,7 +85,10 @@ This project is created with:
     - Font Awesome - for Icons
     - Bootstrap
 * JavaScript
-* Gitpod/Github
+* Font Awesome - for Icons.
+* Balsamic - to creation of the Wireframes.
+* GitHub - Used for hosting the code and version control.
+* GitHub Pages - This is where the site is deployed.
 
 # Testing 
 The [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdce4a9da-36f6-4466-bd74-86f87ab6347c.ws-eu03.gitpod.io%2F%23%2Fworkspace%2FAmani-Strength-Training-MS1-Code-Institute&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) CSS Validation Service was used to valid both CSS and HTML code.
@@ -113,18 +127,50 @@ The testing below is identical on all pages (Home, Training, and Contact Us)
     - This button, turns green when hovered over, and when clicked, directs the user to the **Training** page.
 2. Email address
     - The email address is blue when inactive and when hovered over turns grey with a margin below. Clicking the email address directs the user to their prefered email service.
-             ![Email address link](/assets/images/email_address_link.png)
+             
 ### Contact Us Page
 1. **Click Here** opens an external page with directions on google maps. This link is also blue when inactive and when hovered over turns grey with a margin below
 2. Contact form
     - All fields are required.
         - Clicking the submit button without any input in the field:
-            ![No input](/assets/images/Form_submit_no_input.png)
+            
         - Entering wrong format for email address:
-            ![Wrong email format](/assets/images/email_address_wrong_format.png)
+            
     - When all fields are correctly input, form submits successfully.
+
 # Deployment
 This website was created in gitpod, which is linked to Github. All changes were commited and pushed to Github.
+
+## GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Joan-Amudu/Amani-Kickboxing-Gym/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://joan-amudu.github.io/Amani-Kickboxing-Gym/) in the "GitHub Pages" section.
+
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+    * To clone this particular repository:
+    https://github.com/Joan-Amudu/Amani-Kickboxing-Gym.git
+
+7. Press Enter. Your local clone will be created.
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more information about cloning repositories.
 
 ### How to publish
 - Go to [GitHub](https://github.com/). If you dont have a git account, sign up [here](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
@@ -146,14 +192,17 @@ Below are the resources that were used to create this website.
 * [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/), a popular front-end open source toolkit has been used for the columns, rows, buttons and form.
 * [Font Awesome](https://fontawesome.com/) was used for the social media icons. Here, the free icons were selected and styled to match the overall color-scheme of the website. 
 
-Pexels
+* [Pexels](https://www.pexels.com/) - Used for free stock
     - [cottonbro](https://www.pexels.com/@cottonbro)
-    - 
+    
 
 
 ## Other resources
 * [w3schools.com](https://www.w3schools.com/default.asp): used for a deeper understanding of HTML and CSS.
 * [StackOverflow](https://stackoverflow.com/): Used for troubleshooting. 
 * Code Institute course modules.
+
+# Acknowledgements
+I would like to acknowledgement my mentor Dick who guided me throughout the project.
 
 
