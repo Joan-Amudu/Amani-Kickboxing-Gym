@@ -41,7 +41,7 @@ p {
 
 .navbar-nav{
   float: left;
-  margin-left: 70%;
+  margin-left: 60%;
 }
 
 .nav-item {
@@ -71,8 +71,10 @@ a:hover {
      color:rgb(44, 41, 41);
      font-weight: 500;
 }
+
+
  
-/*--------------------------------------- Header*/
+/*--------------------------------------- Page Hero Images*/
 
 .hero-image {
     height: 500px;
@@ -85,6 +87,7 @@ a:hover {
     overflow: hidden;
     position: relative;
 }
+
 
 .training-image {
     height: 500px;
@@ -300,38 +303,31 @@ footer p {
 
 
 /*----------------------------------Media Queries */
-
-
-
-@media screen and (max-width: 922px) {
-
-    #logo {
-        text-align: center;
-        font-size: 30px;       
+@media (min-width: 768px){
+    .navbar-expand-md .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: auto;
     }
-     .nav-item  {
-     margin-top: 5%;         
-     font-size: 1rem;
-     line-height: 5px;
-    }
-   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: .5rem;
-  
 }
-    .learn-more-btn {
-        margin-left: 40%;
-        padding-top: 50%;
-    }
 
-    .about-section,
-    .opening-hours,
-    .training-section,
-    .contact-text,
-    .contactUs {
+@media screen and (max-width: 795px) {
+
+.learn-more-btn {
+        margin-top: 50%;
+        padding-top: 10px;
+        
+}
+
+.about-section,
+.opening-hours,
+.training-section,
+.contact-text,
+.contactUs {
         width:90%;
         height: 100%;
         margin: 0 auto;
-    }
+}
 
     .image-text {
         padding-top: 20%;
@@ -350,19 +346,6 @@ footer p {
 
 
 @media screen and (max-width: 1200px) {
-      #logo {
-        font-size: 30px;       
-    }
-   
-    .nav-wrapper {
-       
-        padding-right: 10px;
-    }
-
-    .learn-more-btn {
-        margin-left: 40%;
-        padding-top: 70%;
-    }
 
     .about-section,
     .opening-hours,
@@ -381,8 +364,7 @@ footer p {
     .socialmedia {
         text-align: center;
         display: block;
-        padding-left: 5px;
-      
+        padding-left: 5px;    
     }
    
- }
+}
