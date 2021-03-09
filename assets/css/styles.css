@@ -25,56 +25,54 @@ h3, h5 {
 
 p {
     font-size: 1.3rem;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 
 /*--------------------------------------- Navbar*/
+
 .nav-wrapper {
     background-color: #fafafa;
-    align-items: center;
+     position:  fixed;
+    height: 100px;
     width: 100vw;
-    position: fixed;
-    z-index: 99999;
+    align-items: center;
+     z-index: 99999;
 }
 
 .nav-item {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
     text-transform: uppercase; 
     float: right;
     position: relative;
     list-style-type: none;
+    display: flex;  
+   
 }
 
- .nav-item li {
-     float: left;
-     margin-top: 5%;
+.nav-item a {
+    font-size: 1.5em;
+    padding: 0 50px;
+    text-decoration: none;
+    color: #777777; 
+    justify-content: center;
 }
 
-
- .nav-link,
- .a {
-     text-decoration: none;
-     color: #777777; 
-    
-}
-
- a:hover {
+a:hover {
     color: #1a1818;  
 }
 
-  .active {
+.nav-item .active {
      color:rgb(44, 41, 41);
+     font-weight: 500;
 }
  
 /*--------------------------------------- Header*/
 
 .hero-image {
     height: 500px;
-    max-width: 100%;  
+    width: 100%;  
     background: url('../images/hero-image.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -140,6 +138,17 @@ body {
     background-color: #eaeaea;
 
 }
+
+/*--------------------------------------- dividers*/
+
+hr {
+    width: 100px;
+    height: 5px;
+    border: 0;
+    background-color: #28a745;
+}
+
+
 /*---------------------------------------  Contents for Home,Training and ContactUs pages*/
 .image-text {
     margin-top: 200px;
@@ -257,41 +266,37 @@ body {
 
 
 footer {
- height: 100px;
+ height: 85px;
+ background-color: #fafafa;
 }
 
 footer p {
-    color: #777777;
-}
-
-.socialmedia li {
-    display: inline;
+    font-size: smaller;
+    padding-top: 15px;
 }
 
 .socialmedia {
-    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  
+}
+
+.socialmedia a {
+    font-size: 1.5em;
+    padding: 0 50px;
 }
 
 .socialmedia i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #777777;
+      color: #777777;
 }
 
 
-/*--------------------------------------- dividers*/
 
-hr {
-    width: 100px;
-    height: 5px;
-    border: 0;
-    background-color: #28a745;
-}
 
 /*----------------------------------Media Queries */
 
-/* ---------------------------------For mobile phones*/
 
 
 @media screen and (max-width: 922px) {
@@ -310,13 +315,11 @@ hr {
      font-size: 10px;
      line-height: 5px;
     }
-    .nav-wrapper {
-        width: -webkit-fill-available;
-    }
+   
 
     .learn-more-btn {
         margin-left: 40%;
-        padding-top: 70%;
+        padding-top: 50%;
     }
 
     .about-section,
@@ -345,15 +348,13 @@ hr {
 }
 
 
-/* ---------------------------------Desktops*/
-
 @media screen and (max-width: 1200px) {
       #logo {
         font-size: 30px;       
     }
    
     .nav-wrapper {
-        width: -webkit-fill-available;
+       
         padding-right: 10px;
     }
 
