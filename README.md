@@ -142,19 +142,14 @@ Other developer can also deploy the website on their local machines using the cl
     git clone https://github.com/Joan-Amudu/Amani-Kickboxing-Gym.git
 # Credits
 Below are the resources that were used to create this website.
-## Images
-All images were free to use and downloaded for [Pexels](https://www.pexels.com/search/boxing/) website.
-All images were traced back to their orignal source which was [Pexels](https://www.pexels.com/search/boxing/).
-## Code
-#### HTML5
+
 * [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/), a popular front-end open source toolkit has been used for the columns, rows, buttons and form.
-
-#### CSS3
-
-* Some of the CSS code was edited using the google inspect tool to style the elements better and create a more responsive webiste.
-
-## Icons
 * [Font Awesome](https://fontawesome.com/) was used for the social media icons. Here, the free icons were selected and styled to match the overall color-scheme of the website. 
+
+Pexels
+    - [cottonbro](https://www.pexels.com/@cottonbro)
+    - 
+
 
 ## Other resources
 * [w3schools.com](https://www.w3schools.com/default.asp): used for a deeper understanding of HTML and CSS.
