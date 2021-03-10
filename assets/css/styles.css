@@ -88,7 +88,27 @@ a:hover {
     position: relative;
 }
 
+/*
+.success-message {
+    height: 310;
+    width: 100%;
+    background: url('../images/girl-image.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    
+}
 
+.success-message p {
+    color: #fafafa;
+}
+
+.success-message a:hover {
+    color: #fafafa;
+}
+*/
 .training-image {
     height: 500px;
     width: 100%;

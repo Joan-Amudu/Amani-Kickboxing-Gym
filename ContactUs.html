@@ -92,19 +92,23 @@
 
         <!--Modal-->
 
-    <div class="modal" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Your message was sent successfuly!</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>                               
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Your Messgae was submitted Successful!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
     </section>
 
-    
+
     <!-- Social Media-->
 
     <footer>
@@ -119,12 +123,12 @@
     <!-- Message Successful Modal-->
 
     <script>
-        $('#contact-form').submit(function(e) {
+        $('#contact-form').submit(function (e) {
             e.preventDefault();
             $('#staticBackdrop').modal('show');
             $('#contact-form')[0].reset();
         });
-</script>
+    </script>
 
 </body>
 
