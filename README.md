@@ -112,31 +112,38 @@ The [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdce4a9
 ## Functional Testing
 ### All pages
 The testing below is identical on all pages (Home, Training, and Contact Us)
-1. logo
-    - Clicking on the logo will return the user to the home page
-2. Navigation bar
-    - Menu Items collapse to a second line when the size size is set for mobile phones.
-    - The active page is highlighted with a darker grey and inactive menu items with a lighter grey color.
-3. Contact Us link
-    - when clicked, leads the user to the Contact Us page. This link is blue when inactive to draw emphasis on it and when hovered over, turn grey with a margin below it.
-4. Social Media Icons
-    - Facebook, Twitter and Instagram icons, when clicked, direct the user to respective websites. All social media links open in new tabs.
-    
+Action | Expected Result | Pass/Fail 
+---------------|---------------|---------------
+Clicking Logo | Clicking on the logo will return the user to the home page | Pass
+Resizing Navigation bar | Menu Items collapse to humburger icon when the screen size is reduced to mobile view | Pass
+Clicking humburger Icon|  In mobile, view will display the menu items | Fail
+Active page| The active page has the same black color as the logo and a heavier font-weight while inactive menu items remain a lighter grey color | Pass
+Hovering over Links | This link is blue when inactive to draw emphasis on it and when hovered over, turn grey with a margin below it | Pass
+Clicking Links | When clicked, navigates the user to it's respective page | Pass
+Clicking Social Media Icons | Opens in new page when clicked for their respective sites | Pass
+||
+
+
+
 ### Home Page
-1. Learn more
-    - This button, turns green when hovered over, and when clicked, directs the user to the **Training** page.
-2. Email address
-    - The email address is blue when inactive and when hovered over turns grey with a margin below. Clicking the email address directs the user to their prefered email service.
-             
+Action | Expected Result | Pass/Fail 
+---------------|---------------|---------------
+Hovering Learn More Button | Turns green when hovered over | Pass
+Clicking Learn More Buttom | When clicked, directs the user to the **Training** page | Pass
+Emai address link | Opens external email | Pass
+||
+
+
 ### Contact Us Page
-1. **Click Here** opens an external page with directions on google maps. This link is also blue when inactive and when hovered over turns grey with a margin below
-2. Contact form
-    - All fields are required.
-        - Clicking the submit button without any input in the field:
-            
-        - Entering wrong format for email address:
-            
-    - When all fields are correctly input, form submits successfully.
+Action | Expected Result | Pass/Fail 
+---------------|---------------|---------------
+Clicking **Click Here** Link | Opens an external page with directions on google maps | Pass
+Contact form: Clicking the submit button without any input in the field | User will get prompted to fill in all fields | Pass
+Inputing wrong email format | User will get propmted to enter correct email format | Pass
+Clicking Send Button | User will recieve successful Modal message | Fail
+||
+
+
 
 # Deployment
 This website was created in gitpod, which is linked to Github. All changes were commited and pushed to Github.
