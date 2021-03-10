@@ -91,7 +91,6 @@ This project is created with:
 * GitHub Pages - This is where the site is deployed.
 
 # Testing 
-The [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdce4a9da-36f6-4466-bd74-86f87ab6347c.ws-eu03.gitpod.io%2F%23%2Fworkspace%2FAmani-Strength-Training-MS1-Code-Institute&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) CSS Validation Service was used to valid both CSS and HTML code.
 
 ## Testing User stories
 1. As a site owner, I want the landing page to have relevant information, so that visitors can immediately understand what the business is about.
@@ -143,7 +142,18 @@ Inputing wrong email format | User will get propmted to enter correct email form
 Clicking Send Button | User will recieve successful Modal message | Fail
 ||
 
+## Validators
+- [HTML Validator](https://validator.w3.org/) .
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) - The  CSS Validation Service was used to valid CSS. No Error found.
 
+## Brower Compatitbility
+This site has been tested successfully on the following browsers:
+  - Google Chrome
+  - Microsoft Edge
+  - Firefox
+  - Safari
+  - Internet Explorer
+  
 
 # Deployment
 This website was created in gitpod, which is linked to Github. All changes were commited and pushed to Github.
