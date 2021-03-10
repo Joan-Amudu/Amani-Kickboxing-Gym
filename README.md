@@ -166,16 +166,17 @@ The project was deployed to GitHub Pages using the following steps...
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://joan-amudu.github.io/Amani-Kickboxing-Gym/) in the "GitHub Pages" section.
+5. Click save.
+6. The page will automatically publish to GitHub pages 
+7. Scroll back down through the page to locate the now published site [link](https://joan-amudu.github.io/Amani-Kickboxing-Gym/) in the "GitHub Pages" section.
 
 
 ### Making a Local Clone
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
+2. Under the repository name, click Code.
+3. To clone the repository, select HTTPS and copy the link.
+4. Open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
@@ -183,26 +184,15 @@ The project was deployed to GitHub Pages using the following steps...
  git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
     * To clone this particular repository:
-    https://github.com/Joan-Amudu/Amani-Kickboxing-Gym.git
+    git clone https://github.com/Joan-Amudu/Amani-Kickboxing-Gym.git
 
 7. Press Enter. Your local clone will be created.
+8. Change into the directory being created.
+9. Clicking index.html, opens the site in a browser.
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more information about cloning repositories.
 
-### How to publish
-- Go to [GitHub](https://github.com/). If you dont have a git account, sign up [here](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
-- Login in to [GitHub](https://github.com/).
-- Select **Amani-Kickboxing-Gym** from the list of repositories.
-- Click **Settings** from the menu.
-- Scroll down to **GitHub pages**.
-- Under source, Select the dropdown and select **master**.
-- Click save.
-- The website is then published and can be accessed from the url that is provided by GitHub.
 
-### How to deploy on your local machine
-Other developer can also deploy the website on their local machines using the clone command below.
-    
-    git clone https://github.com/Joan-Amudu/Amani-Kickboxing-Gym.git
 # Credits
 Below are the resources that were used to create this website.
 

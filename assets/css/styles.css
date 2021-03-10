@@ -156,7 +156,9 @@ a:hover {
     padding-top: 10%;
     background-color: #f6f6f6;
 }
-
+.form-group {
+    padding-top: 10px;
+}
 /*--------------------------------------- Body*/
 
 body {
@@ -211,7 +213,7 @@ hr {
 
 .group-training {
     height: 500px;
-    width: 100%;    
+    max-width: 100%;    
    
     background: url('../images/group-training-image.jpg') no-repeat left;
     -webkit-background-size: cover;
@@ -285,8 +287,16 @@ hr {
 
 .submit-button {
     color: #6c757d;
+    margin-top: 10px;
 }
 
+
+/*--------------------------------------- Modal*/
+
+.modal {
+    position: relative;
+    margin-top: 40%;
+}
 
 
 /*--------------------------------------- Footer*/
@@ -304,9 +314,10 @@ footer p {
 
 .socialmedia {
     width: 100%;
-    display: flex;
+    display: inline;
     justify-content: center;
     padding-top: 10px;
+    margin-left: 40%;
   
 }
 
@@ -333,6 +344,10 @@ footer p {
 
 @media screen and (max-width: 795px) {
 
+.hero-image {
+    max-width: 100%;
+}
+
 .learn-more-btn {
         margin-top: 50%;
         padding-top: 10px;
@@ -344,7 +359,7 @@ footer p {
 .training-section,
 .contact-text,
 .contactUs {
-        width:90%;
+        width:100%;
         height: 100%;
         margin: 0 auto;
 }
@@ -354,8 +369,12 @@ footer p {
     }
 
     .socialmedia {
-        display: inline;
-    } 
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin-left: 5%;
+        padding-left: 5px;  
+    }
 
     .one-training,
     .group-training {
@@ -384,7 +403,8 @@ footer p {
     .socialmedia {
         text-align: center;
         display: block;
-        padding-left: 5px;    
+        padding-left: 5px;   
+        
     }
    
 }
