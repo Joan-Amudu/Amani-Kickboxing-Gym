@@ -7,7 +7,6 @@
     <meta name="description" content="This page contains contact details and a form to contact the gym.">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
     <script src="https://kit.fontawesome.com/b22084529e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Amani KickBoxing Gym</title>
@@ -62,7 +61,7 @@
 
     <section>
         <div class="contactUs">
-            <form id="contactus-form">
+            <form id="contact-form">
                 <div class="form-group">
                     <label for="fullname">First Name</label>
                     <input type="text" class="form-control" id="firstname" aria-describedby="nameHelp"
@@ -89,23 +88,23 @@
                     <button type="submit" class="btn bt-primary btn-outline-success submit-button">Submit</button>
                 </div>
             </form>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Submitted!</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <p>We will contact you soon!</p>
-                        </div>
-                    </div>
-                </div>
+        </div>
+
+        <!--Modal-->
+
+    <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Your message was sent successfuly!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>                               
             </div>
         </div>
+    </div>
     </section>
 
+    
     <!-- Social Media-->
 
     <footer>
@@ -120,12 +119,13 @@
     <!-- Message Successful Modal-->
 
     <script>
-        $('#contactus-form').submit(function (e) {
+        $('#contact-form').submit(function(e) {
             e.preventDefault();
             $('#staticBackdrop').modal('show');
-            $('#contactus-form')[0].reset();
+            $('#contact-form')[0].reset();
         });
-    </script>
+</script>
+
 </body>
 
 </html>
