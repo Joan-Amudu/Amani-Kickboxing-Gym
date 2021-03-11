@@ -116,15 +116,20 @@ This project is created with:
     - The **Training** page gives detailed imformation on the services/traininging that are being offered.   
 
 2. As a site owner, I want contact details to be available on the landing page, so that visitors can have quick access to contact information.
-    - The **Home** page have contact details listed. The **Email** address opens up an external link to microsoft mail which lists the most used emails. 
+    - The **Home** page have contact details listed. The **Email** address opens up an external link to microsoft mail which lists the most used emails.
+    ![Email](assets/images/email_address_link.png) 
     - From the navigation bar, the visitor can access contact details by clicking the **Contact Us** menu.
 3. As a visitor, I want to easily navigate the site, so that I can quickly find information.
     - The site has a navigation bar in the header with menu items (Home, Training and Contact Us) that link to their respective pages.
+    - The navigation bar is responsive and collpases to a hunberger menu on smaller screen sizes.
+        ![Navbar](assets/images/navbar-collapse.JPG)
     - The site also features a footer with socila media icons that open externally to their respective webistes.
+
 4. As a visitor, I want information about training times, so I can know which training days and times work best for me.
     - Information on opening hours on the **Home** page is clearly displayed.
 5. As a visitor, I want to know what services or training is available, so that I can make an informed decision to join the gym.
     - On the **Training** page, detailed information about the trainings offered is clearly displayed with accompanying images. 
+
 ## Functional Testing
 ### All pages
 The testing below is identical on all pages (Home, Training, and Contact Us)
@@ -170,6 +175,10 @@ This site has been tested successfully on the following browsers:
   - Firefox
   - Safari
   - Internet Explorer
+
+## Responsiveness
+Google inspect was used to test the responsoveness of this site. The site responds well the most common mobile and tablet screen sizes.
+
   
 
 # Deployment
@@ -179,23 +188,23 @@ This website was created in gitpod, which is linked to Github. All changes were 
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Joan-Amudu/Amani-Kickboxing-Gym/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Joan-Amudu/Amani-Kickboxing-Gym/).
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. Click save.
-6. The page will automatically publish to GitHub pages 
+6. The page will automatically publish to GitHub pages. 
 7. Scroll back down through the page to locate the now published site [link](https://joan-amudu.github.io/Amani-Kickboxing-Gym/) in the "GitHub Pages" section.
 
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
 2. Under the repository name, click Code.
 3. To clone the repository, select HTTPS and copy the link.
 4. Open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
+6. Type **git clone**, and then paste the URL you copied in Step 3.
 
 ```
  git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
@@ -216,7 +225,7 @@ Below are the resources that were used to create this website.
 * [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/), a popular front-end open source toolkit has been used for the columns, rows, buttons and form.
 * [Font Awesome](https://fontawesome.com/) was used for the social media icons. Here, the free icons were selected and styled to match the overall color-scheme of the website. 
 
-* [Pexels](https://www.pexels.com/) - Used for free stock
+* [Pexels](https://www.pexels.com/) - Used for free stock.
     - [cottonbro](https://www.pexels.com/@cottonbro)
     
 
