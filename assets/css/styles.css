@@ -305,11 +305,17 @@ hr {
 footer {
  height: 85px;
  background-color: #fafafa;
+;
 }
 
 footer p {
     font-size: smaller;
     padding-top: 15px;
+}
+
+footer .copyright {
+justify-content: center;
+  margin-bottom: 0;
 }
 
 .socialmedia {
@@ -412,19 +418,34 @@ footer p {
 */
 
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+
+
+
+/* Extra small devices (portrait phones, less than 450px) */
+
+@media screen and (max-width: 450px) { 
+
+
     .socialmedia {
         width: 50%;
         display: inline;
-        margin: 0 25%;  
-        padding: 0 15px;    
+        padding: 0 10px;
+        margin: 0 60px;
+          
     }
 
     .socialmedia a {
-    font-size: 1.0em;
-    padding: 0 5px;
+    font-size: 1.5em;
+    display: contents;
+   
 }
+
+.socialmedia i {
+    padding: 0 5px;
+    margin-left: 0 10px;
+    
+}
+
 .image-text {
         padding-top: 20%;
     }
@@ -437,13 +458,36 @@ footer p {
 
 }
 
-/* Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) { 
 
-      .socialmedia {
+/* Small devices (landscape phones, less than 768px)*/
+
+@media screen and  (max-width: 768px) { 
+
+    
+    .socialmedia {
+        width: 75%;
+        display: inline;
+        padding: 0 50px;
+        margin: 0 60px;
+          
+    }
+
+    .socialmedia a {
+    font-size: 1.1em;
+    padding: 0 5px;
+    
+
+ }
+}
+
+/* Medium devices (tablets, less than 992px) */
+
+/*
+@media screen and (max-width: 992px) { 
+       .socialmedia {
         width: 40%;
-        display: inline; 
-        margin: 0 25px;       
+        display: inline;
+             
             
     }
 
@@ -454,26 +498,10 @@ footer p {
 
  }
 }
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
-       .socialmedia {
-        width: 40%;
-        display: inline;
-        margin: 0 25%;        
-            
-    }
-
-        .socialmedia a {
-    font-size: 1.5em;
-    padding: 0 40px;
-    
-
- }
-}
-
+*/
 /* Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) { 
+/*
+@media (max-width: 1200px) { 
 
      .socialmedia {
         width: 40%;
@@ -489,3 +517,4 @@ footer p {
  }
 
  }
+*/
