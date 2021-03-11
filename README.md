@@ -4,6 +4,22 @@ Click [here](https://joan-amudu.github.io/Amani-Kickboxing-Gym/) to visit the li
 <img src="assets/images/Readme-cover.JPG">
 
 # Table of Content
+[General Information](#general-information)
+
+[User Experience](#user-experience)
+
+[Features](#features)
+
+[Technologies](#technologies)
+
+[Testing](#testing)
+
+[Deployment](#deployment)
+
+[Credits](#credits)
+
+[Acknowledgements](#acknowledgements)
+
 # General Information
 The [Code Institute](https://codeinstitute.net/) Milestone Project 1 requires students to build a static frnt-end website to prsent useful information to users.
 
@@ -12,7 +28,8 @@ This project will demonstate HTML5 and CSS3 skills, as well Bootstrap which was 
 The project idea is to build a website for a gym. In this case, the website is for a kickboxing gym where information presented on the site will enable users to learn more about the gym and the services/ trainings they offer.
 
 This project was created using the mobile first stategy where a website is created and developed for mobile users first, then tablets and finally desktop users.
-# UX
+
+# User Experience 
 This section highlights the business objectives and user experience .
 
 ## Business Objectives 
