@@ -35,8 +35,8 @@ p {
 .navbar {
     position: fixed;
     background-color: #fafafa;
-     z-index: 99999;
-     width: 100%;
+    z-index: 99999;
+    width: 100%;
 }
 
 .navbar-nav{
@@ -88,27 +88,6 @@ a:hover {
     position: relative;
 }
 
-/*
-.success-message {
-    height: 310;
-    width: 100%;
-    background: url('../images/girl-image.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-    
-}
-
-.success-message p {
-    color: #fafafa;
-}
-
-.success-message a:hover {
-    color: #fafafa;
-}
-*/
 .training-image {
     height: 500px;
     width: 100%;
@@ -305,9 +284,8 @@ hr {
 footer {
  height: 85px;
  background-color: #fafafa;
-;
-}
 
+}
 
 
 footer a {
@@ -320,17 +298,7 @@ footer i {
 }
 
 
-
-
 /*----------------------------------Media Queries */
-/*
-@media (min-width: 768px){
-    .navbar-expand-md .navbar-nav {
-    -ms-flex-direction: row;
-    flex-direction: row;
-    margin-left: auto;
-    }
-}
 
 @media screen and (max-width: 795px) {
 
@@ -339,8 +307,8 @@ footer i {
 }
 
 .learn-more-btn {
-        margin-top: 50%;
-        padding-top: 10px;
+    margin-top: 50%;
+    padding-top: 10px;
         
 }
 
@@ -349,94 +317,37 @@ footer i {
 .training-section,
 .contact-text,
 .contactUs {
-        width:100%;
-        height: 100%;
-        margin: 0 auto;
+    width:100%;
+    height: 100%;
+    margin: 0 auto;
 }
 
-    .image-text {
-        padding-top: 20%;
-    }
+.image-text {
+    padding-top: 20%;
+}
 
-    .socialmedia {
-        text-align: center;
-        display: block;
-        width: 100%;
-        margin-left: 5%;
-        padding-left: 5px;  
-    }
-
-    .one-training,
-    .group-training {
-        display: none;
-    }
+.one-training,
+.group-training {
+    display: none;
+}
 
 }
 
 
 @media screen and (max-width: 1200px) {
 
-    .about-section,
-    .opening-hours,
-    .training-section,
-    .contact-text,
-    .contactUs {
-        width:90%;
-        height: 100%;
-        margin: 0 auto;
-    }
-
-    .image-text {
-        padding-top: 20%;
-    }
-
-    .socialmedia {
-        text-align: center;
-        display: block;
-        padding-left: 5px;   
-        
-    }
-   
+.about-section,
+.opening-hours,
+.training-section,
+.contact-text,
+.contactUs {
+    width:90%;
+    height: 100%;
+    margin: 0 auto;
 }
-*/
-
-
-
-
-
-/* Extra small devices (portrait phones, less than 450px) */
-
-@media screen and (max-width: 450px) { 
-
-
-
 
 .image-text {
-        padding-top: 20%;
-    }
-
-.learn-more-btn {
-        margin-top: 50%;
-        padding-top: 10px;
-        
+    padding-top: 20%;
 }
 
 }
-
-
-/* Small devices (landscape phones, less than 768px)*/
-
-@media screen and  (max-width: 768px) { 
-
-}
-
-/* Medium devices (tablets, less than 992px) */
-
-/*
-
-/* Large devices (desktops, less than 1200px)*/
-
-@media (max-width: 1200px) { 
-
-
- }
