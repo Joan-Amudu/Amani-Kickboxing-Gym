@@ -308,31 +308,14 @@ footer {
 ;
 }
 
-footer p {
-    font-size: smaller;
-    padding-top: 15px;
-}
 
-footer .copyright {
-justify-content: center;
-  margin-bottom: 0;
-}
 
-.socialmedia {
-    width: 100%;
-    display: inline;
-    justify-content: center;
-    padding-top: 10px;
-    margin-left: 40%;
-  
-}
-
-.socialmedia a {
+footer a {
     font-size: 1.5em;
-    padding: 0 50px;
+    padding: 0 10px;
 }
 
-.socialmedia i {
+footer i {
       color: #777777;
 }
 
@@ -426,25 +409,7 @@ justify-content: center;
 @media screen and (max-width: 450px) { 
 
 
-    .socialmedia {
-        width: 50%;
-        display: inline;
-        padding: 0 10px;
-        margin: 0 60px;
-          
-    }
 
-    .socialmedia a {
-    font-size: 1.5em;
-    display: contents;
-   
-}
-
-.socialmedia i {
-    padding: 0 5px;
-    margin-left: 0 10px;
-    
-}
 
 .image-text {
         padding-top: 20%;
@@ -463,58 +428,15 @@ justify-content: center;
 
 @media screen and  (max-width: 768px) { 
 
-    
-    .socialmedia {
-        width: 75%;
-        display: inline;
-        padding: 0 50px;
-        margin: 0 60px;
-          
-    }
-
-    .socialmedia a {
-    font-size: 1.1em;
-    padding: 0 5px;
-    
-
- }
 }
 
 /* Medium devices (tablets, less than 992px) */
 
 /*
-@media screen and (max-width: 992px) { 
-       .socialmedia {
-        width: 40%;
-        display: inline;
-             
-            
-    }
 
-        .socialmedia a {
-    font-size: 1.5em;
-    padding: 0 5px;
-    
-
- }
-}
-*/
 /* Large devices (desktops, less than 1200px)*/
-/*
+
 @media (max-width: 1200px) { 
 
-     .socialmedia {
-        width: 40%;
-        display: inline;
-              
-            
-    }
-
-    .socialmedia a {
-    font-size: 1.5em;
-    padding: 0 40px;
-    
- }
 
  }
-*/
