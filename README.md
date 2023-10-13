@@ -232,7 +232,4 @@ Below are the resources that were used to create this website.
 * [StackOverflow](https://stackoverflow.com/): Used for troubleshooting. 
 * Code Institute course modules.
 
-# Acknowledgements
-I would like to acknowledgement my mentor Dick who guided me throughout the project.
-
 
